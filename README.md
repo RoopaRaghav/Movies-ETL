@@ -61,9 +61,9 @@ def clean_movie(movie):
     change_column_name('Written by', 'Writer(s)')
 
     return movie
-Python Function to Clean/Parse data, Merge DataFrames, and Push to the SQL database
-# 1 Add the function that takes in three arguments;
-# Wikipedia data, Kaggle metadata, and MovieLens rating data (from Kaggle)
+### Python Function to Clean/Parse data, Merge DataFrames, and Push to the SQL database
+### Add the function that takes in three arguments;
+### Wikipedia data, Kaggle metadata, and MovieLens rating data (from Kaggle)
 
 def extract_transform_load():
     # 1. Read in the kaggle metadata and MovieLens ratings CSV files as Pandas DataFrames.
